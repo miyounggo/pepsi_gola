@@ -77,6 +77,7 @@
 h1,h2,p{
 	text-align:center;
 	margin: 30px 0;
+	
 }
 /*6. 의사 선택자*/
 /*7. 자손(=후손) 선택자*/
@@ -94,3 +95,85 @@ h1,h2,p{
 	
 }
 
+
+
+/*=====brand story============*/
+.main{
+	margin:0 5%;
+}
+
+
+/*.promotion img{
+	width: 100%;
+	object-fit: cover;
+}*/
+.story{
+	
+	display:flex;
+	justify-content:center;
+	gap: 0 38px;
+	
+	
+	/*max-width:1536px;
+	background-color:orange;*/
+	/*flex-direction:row;
+	flex-direction:colum;
+	flex-contstiner*/
+}
+.story_text p {
+	text-align: left;/*텍스트_왼쪽*/
+}
+.value_data ul {
+	display:flex;
+	justify-content: space-between;/*공간사이사이를 일정하게*/
+	/*justify-content: space-around;/*공간사이사이를 일정하게*/
+	/*justify-content: space-evenly;*/
+	
+	
+	
+}
+
+
+.value_data h2{
+	font-size:22px;
+	font-weight:normal;
+	
+}
+.value_data p{
+	font-size: 40px;
+	
+}
+.family_items ul{
+	display:flex;
+	justify-content: center;	
+}
+.family_items {
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;		
+}
+.family_items p{
+	font-size:30px;
+	
+}
+.family_items img{
+	width:80%;
+	object-fit:cover;
+}
+.partner_names{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;	
+}
+.partner_names p{
+	font-size:30px;
+}
+
+.partner_list{
+	display:flex;
+	justify-content: center;
+	justify-content: space-between;	
+}
+ul{
+	list-style-type:none;
+}
